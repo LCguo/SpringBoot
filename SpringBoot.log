@@ -1,0 +1,27 @@
+2019-10-31 14:58:43.513  INFO 7952 --- [main] c.m.s.m.t.s.impl.TestServiceImplTest     : Starting TestServiceImplTest on LAPTOP-Glc with PID 7952 (started by ASUS in E:\WorkingSpace\SpringBoot)
+2019-10-31 14:58:43.520  INFO 7952 --- [main] c.m.s.m.t.s.impl.TestServiceImplTest     : No active profile set, falling back to default profiles: default
+2019-10-31 14:58:45.035  INFO 7952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-31 14:58:45.045  INFO 7952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-31 14:58:45.128  INFO 7952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 0 repository interfaces.
+2019-10-31 14:58:45.724  INFO 7952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 14:58:47.816  INFO 7952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-31 14:58:48.561  INFO 7952 --- [main] c.m.s.m.t.s.impl.TestServiceImplTest     : Started TestServiceImplTest in 6.151 seconds (JVM running for 9.214)
+2019-10-31 14:58:48.901  INFO 7952 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-31 15:01:01.297  INFO 6468 --- [main] c.m.s.m.t.s.impl.TestServiceImplTest     : Starting TestServiceImplTest on LAPTOP-Glc with PID 6468 (started by ASUS in E:\WorkingSpace\SpringBoot)
+2019-10-31 15:01:01.301  INFO 6468 --- [main] c.m.s.m.t.s.impl.TestServiceImplTest     : No active profile set, falling back to default profiles: default
+2019-10-31 15:01:03.201  INFO 6468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-31 15:01:03.205  INFO 6468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-31 15:01:03.252  INFO 6468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-10-31 15:01:03.693  INFO 6468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 15:01:05.929  INFO 6468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-31 15:01:06.533  INFO 6468 --- [main] c.m.s.m.t.s.impl.TestServiceImplTest     : Started TestServiceImplTest in 5.803 seconds (JVM running for 7.061)
+2019-10-31 15:01:06.789  INFO 6468 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-31 15:02:22.747  INFO 1672 --- [main] c.m.s.m.t.s.impl.TestServiceImplTest     : Starting TestServiceImplTest on LAPTOP-Glc with PID 1672 (started by ASUS in E:\WorkingSpace\SpringBoot)
+2019-10-31 15:02:22.750  INFO 1672 --- [main] c.m.s.m.t.s.impl.TestServiceImplTest     : No active profile set, falling back to default profiles: default
+2019-10-31 15:02:24.025  INFO 1672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-31 15:02:24.033  INFO 1672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-31 15:02:24.089  INFO 1672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-10-31 15:02:24.574  INFO 1672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 15:02:26.592  INFO 1672 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-31 15:02:27.245  INFO 1672 --- [main] c.m.s.m.t.s.impl.TestServiceImplTest     : Started TestServiceImplTest in 4.959 seconds (JVM running for 6.177)
+2019-10-31 15:02:27.541  INFO 1672 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
