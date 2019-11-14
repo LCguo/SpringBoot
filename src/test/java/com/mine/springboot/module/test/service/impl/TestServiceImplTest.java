@@ -1,22 +1,16 @@
 package com.mine.springboot.module.test.service.impl;
-import com.alibaba.druid.sql.visitor.functions.Char;
 import com.mine.springboot.module.test.service.ITestService;
 import com.mine.springboot.module.test.service.entity.User;
 import lombok.Data;
-import lombok.ToString;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.*;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class TestServiceImplTest {
@@ -30,17 +24,6 @@ class TestServiceImplTest {
 
     @Test
     void testReturnString() {
-/*        Set<Integer> set = new HashSet<>();
-        set.add(4);
-        set.add(5);
-        set.add(2);
-        set.add(3);
-        set.add(1);
-        set.add(2);
-        set.add(5);
-        set.add(7);
-        set.add(1);
-        System.out.print(set.toString());*/
         Set<Integer> set = new LinkedHashSet<>();
         set.add(4);
         set.add(5);
@@ -225,7 +208,7 @@ class TestServiceImplTest {
         }
     }
     @Test
-    public void main() {
+    public void mm() {
         MyValue subject = new MyValue();
 
         new FileObserver(subject);

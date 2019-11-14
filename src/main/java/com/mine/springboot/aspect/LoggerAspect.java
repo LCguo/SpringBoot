@@ -14,22 +14,30 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;
 
+/**
+ * @author longcheng.guo
+ */
 @Aspect
 @Component
 public class LoggerAspect {
 
-    private Logger logger;
-
-    @Pointcut("execution(public * com.mine.springboot.module.*.service..*.*(..))")//切入点描述 这个是controller包的切入点
-    public void controllerLog(){}//签名，可以理解成这个切入点的一个名称
-
-    @Before("controllerLog()") //在切入点的方法run之前要干的
+    private Logger logger = null;
+    //切入点描述 这个是controller包的切入点
+    @Pointcut(value = "execution(public * com.mine.springboot.module.*.service..*.*(..))")
+   /**
+    *  签名，可以理解成这个切入点的一个名称
+    */
+    public void controllerLog(){}
+    /**
+     * 在切入点的方法run之前要干的
+     */
+    @Before("controllerLog()")
     public void logBeforeController(JoinPoint joinPoint) {
 
         logger = LoggerFactory.getLogger(joinPoint.getSignature().getDeclaringTypeName());
         logger.info("#CLASS_METHOD : " + joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName());
-
-        RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();//这个RequestContextHolder是Springmvc提供来获得请求的东西
+        //这个RequestContextHolder是Springmvc提供来获得请求的东西
+        RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = ((ServletRequestAttributes)requestAttributes).getRequest();
         // 记录下请求内容
         logger.info("#URL : " + request.getRequestURL().toString());
